@@ -1,0 +1,10 @@
+# Sources and tested boundaries
+
+- [jindroush/albituzka](https://github.com/jindroush/albituzka) (MPL-2.0): Albi BNL analysis, generator and documentation. Its BNL format is not automatically compatible with another brand.
+- [JanValiVales/Albi_tuzka](https://github.com/JanValiVales/Albi_tuzka) (MPL-2.0): Python OID2 and Albi BNL tools. The analyzed film executable SHA-256 44db3732933fab38be70e202937f0896c92d3c78fe7f39fcc50814578cc561f8 has all 65,536 16-bit OID2 lookup values matching its Python table. For ID 1001, an unverified candidate tile versus the Albi Python tile, at 1200 dpi and aligned by toroidal shift (7,8), agreed on 60 of 64 black pixels. Each had 16 square 2×2 dots; one marker square was shifted by 2 pixels. This is a meaningful difference, not proof of an error in either implementation. Original program rendering, seams and device results remain unverified. Respect MPL terms when reusing code.
+- [entropia/tip-toi-reveng](https://github.com/entropia/tip-toi-reveng): Tiptoi OID and GME tools; this different pen/file family is not assumed compatible.
+- [kings0527/talking-pen-toolkit](https://github.com/kings0527/talking-pen-toolkit): 小达人 DAB/DAS/DAR and cross-brand raw-code research, not evidence of 毛毛虫 compatibility.
+- [小彼恩制贴说明](https://www.xiaobien.com/service-support/detail/26), [型号及代次](https://www.xiaobien.com/service-support/detail/23), [文件夹说明](https://www.xiaobien.com/service-support/detail/24), [下载点读包](https://www.xiaobien.com/service-support/detail/27).
+- [Epson L8168](https://www.epson.com.cn/products/l-all-in-ones/l8168/): includes pigment black and dye black; stated maximum DPI does not prove microdots, ink selection or recognition.
+
+The original film tool labels its buttons 二代码 and 三代码. Its BMP header uses 47244 pixels/metre (~1200 dpi). The emulator executes just identified binary routines with fixed memory and no system-call hooks; user supplies the matching original EXE/ZIP. No claim is made about other binaries, decoding, edge correctness, BNL interoperability or physical testing. Source software states noncommercial/research use; do not redistribute it or imply the MIT license grants rights to it.
